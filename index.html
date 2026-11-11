@@ -1,145 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="KINGSHOTS PHOTOGRAPHY — portraits, events, weddings and creative photography.">
-  <title>KINGSHOTS PHOTOGRAPHY | Your Memory Lane</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouthTech Connect Uganda</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home">
-      <img src="photos/logo.png" alt="KINGSHOTS PHOTOGRAPHY" class="brand-logo">
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation"
-      aria-expanded="false" aria-controls="mainNav">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
-      <a href="#home">Home</a><a href="#services">Services</a>
-      <a href="#gallery">Gallery</a><a href="#about">About</a>
-      <a class="nav-cta" href="#booking">Book a Shoot</a>
-    </nav>
-  </header>
- 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">YOUR STORY. OUR LENS.</p>
-        <h1>Moments fade.<br><span>Memories stay.</span></h1>
-        <p class="hero-copy">We capture real emotion, beautiful details, and the moments you will want to remember forever.</p>
-        <div class="hero-actions">
-          <a class="button button-gold" href="#gallery">Explore Our Work</a>
-          <a class="button button-outline" href="#booking">Book a Session</a>
-        </div>
-      </div>
-      <div class="hero-note">PORTRAITS · EVENTS · WEDDINGS</div>
-    </section>
- 
-    <section class="section services" id="services">
-      <div class="section-heading">
-        <p class="eyebrow">WHAT WE DO</p>
-        <h2>Photography for every chapter</h2>
-        <p>Thoughtful photography, professionally captured and carefully presented.</p>
-      </div>
-      <div class="service-grid">
-        <article class="service-card"><div class="service-icon">◉</div>
-          <h3>Portrait Photography</h3><p>Personal portraits, graduation photos, family sessions, and creative studio looks.</p></article>
-        <article class="service-card"><div class="service-icon">♡</div>
-          <h3>Weddings & Couples</h3><p>Honest moments and meaningful details from your special day.</p></article>
-        <article class="service-card"><div class="service-icon">✦</div>
-          <h3>Events & Celebrations</h3><p>Birthdays, ceremonies, launches, parties, and community occasions.</p></article>
-        <article class="service-card"><div class="service-icon">▣</div>
-          <h3>Commercial Photography</h3><p>Product, brand, and business images that help tell your story.</p></article>
-      </div>
-    </section>
- 
-    <section class="section gallery-section" id="gallery">
-      <div class="section-heading">
-        <p class="eyebrow">SELECTED WORK</p><h2>Frames worth remembering</h2>
-        <p>Explore sample photography styles. Replace these sample images with your own work.</p>
-      </div>
-      <div class="gallery-filters" role="group" aria-label="Filter gallery">
-        <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
-        <button class="filter-btn" data-filter="portrait" aria-pressed="false">Portraits</button>
-        <button class="filter-btn" data-filter="wedding" aria-pressed="false">Weddings</button>
-        <button class="filter-btn" data-filter="lifestyle" aria-pressed="false">Lifestyle</button>
-      </div>
-      <div class="gallery-grid">
-        <figure class="gallery-item" data-category="portrait">
-          <img src= "photos/GOLDEN G.png" alt="Portrait photography sample" loading="lazy">
-          <figcaption><span>Portraits</span><strong>Natural Light</strong></figcaption></figure>
-        <figure class="gallery-item" data-category="wedding">
-          <img src="photos/IN LOVE.jpg" alt="Wedding photography sample" loading="lazy">
-          <figcaption><span>Weddings</span><strong>Always & Forever</strong></figcaption></figure>
-        <figure class="gallery-item" data-category="lifestyle">
-          <img src="photos/GOLD.jpg" alt="Golden hour landscape sample" loading="lazy">
-          <figcaption><span>Lifestyle</span><strong>Golden Hour</strong></figcaption></figure>
-        <figure class="gallery-item" data-category="portrait">
-          <img src="photos/POTRAIT.jpg" alt="Portrait sample" loading="lazy">
-          <figcaption><span>Portraits</span><strong>Character</strong></figcaption></figure>
-        <figure class="gallery-item" data-category="wedding">
-          <img src="photos/WEDDING.jpg" alt="Wedding couple sample" loading="lazy">
-          <figcaption><span>Weddings</span><strong>Two Hearts</strong></figcaption></figure>
-        <figure class="gallery-item" data-category="lifestyle">
-          <img src="photos/WALK.jpg" alt="Travel landscape sample" loading="lazy">
-          <figcaption><span>Lifestyle</span><strong>Open Roads</strong></figcaption></figure>
-      </div>
-    </section>
- 
-    <section class="about-section" id="about">
-      <div class="about-image">
-        <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1000&q=85" alt="Camera and photography equipment" loading="lazy">
-      </div>
-      <div class="about-copy">
-        <p class="eyebrow">BEHIND THE LENS</p><h2>Every picture has a story.</h2>
-        <p>KINGSHOTS PHOTOGRAPHY believes photographs should feel personal. From big celebrations to everyday moments, our goal is to create images you will be proud to keep and share.</p>
-        <p>We work with you to understand your vision, make the session comfortable, and deliver photographs that reflect your personality and occasion.</p>
-        <a class="text-link" href="#booking">Let's create something memorable →</a>
-      </div>
-    </section>
- 
-    <section class="section booking-section" id="booking">
-      <div class="booking-intro">
-        <p class="eyebrow">LET'S PLAN YOUR SHOOT</p><h2>Tell us what you have in mind.</h2>
-        <p>Share a few details and discuss the right photography session for you.</p>
-        <div class="contact-detail"><strong>Email</strong><span><a href="mailto:epaphrasnowamani@gmail.com">epaphrasnowamani@gmail.com</a></span></div>
-        <div class="contact-detail"><strong>Phone / WhatsApp</strong><span><a href="tel:+256704423142">0704423142</a> · <a href="https://wa.me/256763618911" target="_blank" rel="noopener">Chat on WhatsApp</a></span></div>
-        <div class="contact-detail"><strong>Location</strong><span>Please contact us for our photography service location.</span></div>
-      </div>
-      <form class="booking-form" id="bookingForm" action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="3c21beb7-7b87-4ffb-a372-52c4e11a1100">
-  <input type="hidden" name="subject" value="New KINGSHOTS PHOTOGRAPHY booking enquiry">
-  <input type="hidden" name="from_name" value="KINGSHOTS Website">
-  <input type="hidden" name="redirect" value="https://kingshots-photography.netlify.app/">
-        <label for="fullName">Your name</label>
-        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
-        <label for="email">Email address</label>
-        <input type="email" id="email" name="_replyto" placeholder="you@example.com" required>
-        <label for="service">Photography service</label>
-        <select id="service" name="service" required>
-          <option value="">Choose a service</option><option>Portrait photography</option>
-          <option>Wedding photography</option><option>Event photography</option>
-          <option>Commercial photography</option><option>Other</option>
-        </select>
-        <label for="shootDate">Preferred date (optional)</label>
-        <input type="date" id="shootDate" name="shootDate">
-        <label for="details">Tell us about your shoot</label>
-        <textarea id="details" name="details" rows="4" placeholder="Occasion, location, number of people, or ideas..."></textarea>
-        <button class="button button-gold form-submit" type="submit">Send Booking Request</button>
-        <p class="form-note">Your enquiry will be sent to our business email. Please provide a valid email address so we can reply.</p>
-      </form>
-    </section>
-  </main>
- 
-  <footer class="site-footer">
-    <a class="brand footer-brand" href="#home"><span class="brand-mark">K</span>
-      <span>KINGSHOTS <small>PHOTOGRAPHY</small></span></a>
-    <p>Capturing moments. Preserving stories.</p>
-    <p class="copyright">© <span id="year"></span> KINGSHOTS PHOTOGRAPHY. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+<header class="topbar">
+  <a class="brand" href="#"><span class="logo">YT</span><span>YouthTech <b>Connect Uganda</b></span></a>
+  <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+  <nav id="nav"><a href="#home">Home</a><a href="#jobs">Jobs</a><a href="#skills">Skills</a><a href="#businesses">Businesses</a><a href="#about">About</a></nav>
+  <div class="auth-actions"><button id="loginBtn" class="btn outline">Log in</button><button id="signupBtn" class="btn">Join free</button><button id="logoutBtn" class="btn outline hidden">Log out</button></div>
+</header>
+<main>
+<section id="home" class="hero">
+ <div class="hero-copy"><p class="eyebrow">SKILLS • WORK • OPPORTUNITY</p><h1>Connect your skills<br>to <span>real opportunities.</span></h1>
+ <p>YouthTech Connect Uganda is a community platform helping young people discover digital skills, jobs, internships and local business opportunities.</p>
+ <div class="hero-actions"><button class="btn" id="heroJoin">Create free account</button><a class="btn outline" href="#jobs">Explore opportunities</a></div>
+ <small class="notice">Starting in Kabale District, Uganda</small></div>
+ <div class="hero-card"><div class="circle">YT</div><h3>Your next opportunity starts here.</h3><p>Learn. Build your portfolio. Connect. Grow.</p><div class="mini-stats"><span><b>Skills</b><small>Learn & grow</small></span><span><b>Jobs</b><small>Find openings</small></span><span><b>Business</b><small>Get discovered</small></span></div></div>
+</section>
+<section class="section" id="jobs"><div class="section-head"><div><p class="eyebrow">OPPORTUNITIES</p><h2>Jobs & internships</h2><p>Browse current opportunities. Listings are provided by platform administrators.</p></div><button class="btn" id="applyLogin">Sign in to apply</button></div>
+<div class="filters"><input id="jobSearch" placeholder="Search title, company, location…"><select id="jobType"><option value="">All types</option><option>Job</option><option>Internship</option><option>Freelance</option><option>Volunteer</option></select></div><div id="jobsGrid" class="grid"><div class="loading">Loading opportunities…</div></div></section>
+<section class="section soft" id="skills"><div class="section-head"><div><p class="eyebrow">LEARNING</p><h2>Skills Academy</h2><p>Build practical skills that can help you enter the digital economy.</p></div></div>
+<div class="grid three"><article class="feature"><div class="icon">⌨</div><h3>Digital foundations</h3><p>Computer basics, online safety, productivity tools and digital literacy.</p></article><article class="feature"><div class="icon">⌘</div><h3>Web development</h3><p>Start learning HTML, CSS and JavaScript through practical projects.</p></article><article class="feature"><div class="icon">↗</div><h3>Career readiness</h3><p>Prepare a CV, portfolio and professional profile for opportunities.</p></article></div></section>
+<section class="section" id="businesses"><div class="section-head"><div><p class="eyebrow">LOCAL ECONOMY</p><h2>Local businesses</h2><p>Discover businesses and services in our community.</p></div><button class="btn" id="businessBtn">Add my business</button></div><div id="businessGrid" class="grid"><div class="loading">Loading businesses…</div></div></section>
+<section class="section soft" id="about"><div class="about"><div><p class="eyebrow">ABOUT THE VENTURE</p><h2>Opportunities should be closer to home.</h2></div><p>YouthTech Connect Uganda connects young people with digital skills, employment, internships and entrepreneurship opportunities, starting in Kabale District. Opportunities and business listings shown here are retrieved from the platform database and depend on verified submissions and administrator approval.</p></div></section>
+</main>
+<footer><div><b>YouthTech Connect Uganda</b><p>Connecting skills to opportunity.</p></div><small>© 2026 YouthTech Connect Uganda</small></footer>
+<div id="authModal" class="modal hidden"><div class="modal-box"><button class="close" data-close="authModal">×</button><h2 id="authTitle">Create your account</h2><p id="authSubtitle">Join YouthTech Connect Uganda.</p><form id="authForm"><label>Full name <input id="fullName" autocomplete="name" required></label><label>Email <input id="email" type="email" autocomplete="email" required></label><label>Password <input id="password" type="password" minlength="8" autocomplete="new-password" required></label><label id="districtLabel">District <input id="district" value="Kabale" required></label><label id="interestLabel">Area of interest<select id="interest"><option>Digital skills</option><option>Jobs and internships</option><option>Freelancing</option><option>Entrepreneurship</option></select></label><button class="btn full" id="authSubmit">Create account</button></form><p class="switch">Already have an account? <button id="switchAuth">Log in</button></p><p class="muted tiny">Use a real email address. Supabase may ask you to confirm your email.</p></div></div>
+<div id="businessModal" class="modal hidden"><div class="modal-box"><button class="close" data-close="businessModal">×</button><h2>Register your business</h2><p>You must sign in first. Business details are visible to visitors.</p><form id="businessForm"><label>Business name<input id="bizName" required></label><label>Category<input id="bizCategory" placeholder="e.g. IT services" required></label><label>District<input id="bizDistrict" value="Kabale" required></label><label>Contact email<input id="bizEmail" type="email" required></label><label>Description<textarea id="bizDescription" required></textarea></label><button class="btn full">Submit business</button></form></div></div>
+<div id="toast" class="toast"></div>
+<script type="module" src="app.js"></script>
+</body></html>
